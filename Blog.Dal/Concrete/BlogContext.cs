@@ -14,6 +14,6 @@ namespace Blog.Dal.Concrete
         {
 
         }
-        public DbSet<User> MyProperty { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

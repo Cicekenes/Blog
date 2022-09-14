@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.Dal\Blog.Dal.csproj" />
+    <ProjectReference Include="..\Blog.Dtos\Blog.Dtos.csproj" />
+  </ItemGroup>
+
 </Project>
