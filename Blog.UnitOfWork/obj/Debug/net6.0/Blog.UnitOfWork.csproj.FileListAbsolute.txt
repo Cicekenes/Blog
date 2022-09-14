@@ -1,0 +1,14 @@
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\bin\Debug\net6.0\Blog.UnitOfWork.deps.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\bin\Debug\net6.0\Blog.UnitOfWork.runtimeconfig.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\bin\Debug\net6.0\Blog.UnitOfWork.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\bin\Debug\net6.0\Blog.UnitOfWork.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.csproj.AssemblyReference.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.AssemblyInfo.cs
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\refint\Blog.UnitOfWork.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\Blog.UnitOfWork.genruntimeconfig.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.UnitOfWork\obj\Debug\net6.0\ref\Blog.UnitOfWork.dll

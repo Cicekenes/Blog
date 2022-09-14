@@ -1,0 +1,14 @@
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Repository.deps.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Repository.runtimeconfig.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Repository.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Repository.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.csproj.AssemblyReference.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.AssemblyInfoInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.AssemblyInfo.cs
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.csproj.CoreCompileInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\refint\Blog.Repository.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.genruntimeconfig.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\ref\Blog.Repository.dll

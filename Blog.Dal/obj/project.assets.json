@@ -782,6 +782,20 @@
             "rid": "win"
           }
         }
+      },
+      "Blog.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Entities.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2017,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Blog.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Entities/Blog.Entities.csproj",
+      "msbuildProject": "../Blog.Entities/Blog.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blog.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
@@ -2045,7 +2065,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Entities\\Blog.Entities.csproj": {
+              "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Entities\\Blog.Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,0 +1,14 @@
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\bin\Debug\net6.0\Blog.Dtos.deps.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\bin\Debug\net6.0\Blog.Dtos.runtimeconfig.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\bin\Debug\net6.0\Blog.Dtos.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\bin\Debug\net6.0\Blog.Dtos.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.csproj.AssemblyReference.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.AssemblyInfoInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.AssemblyInfo.cs
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\refint\Blog.Dtos.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\Blog.Dtos.genruntimeconfig.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dtos\obj\Debug\net6.0\ref\Blog.Dtos.dll

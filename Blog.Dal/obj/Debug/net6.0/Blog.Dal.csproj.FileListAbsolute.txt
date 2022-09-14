@@ -1,0 +1,17 @@
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\bin\Debug\net6.0\Blog.Dal.deps.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\bin\Debug\net6.0\Blog.Dal.runtimeconfig.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\bin\Debug\net6.0\Blog.Dal.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\bin\Debug\net6.0\Blog.Dal.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\bin\Debug\net6.0\Blog.Entities.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\bin\Debug\net6.0\Blog.Entities.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.csproj.AssemblyReference.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.AssemblyInfoInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.AssemblyInfo.cs
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.csproj.CoreCompileInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.csproj.CopyComplete
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\refint\Blog.Dal.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\Blog.Dal.genruntimeconfig.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Dal\obj\Debug\net6.0\ref\Blog.Dal.dll

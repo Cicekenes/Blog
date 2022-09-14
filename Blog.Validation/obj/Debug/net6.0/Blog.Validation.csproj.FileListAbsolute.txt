@@ -1,0 +1,14 @@
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\bin\Debug\net6.0\Blog.Validation.deps.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\bin\Debug\net6.0\Blog.Validation.runtimeconfig.json
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\bin\Debug\net6.0\Blog.Validation.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\bin\Debug\net6.0\Blog.Validation.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.csproj.AssemblyReference.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.AssemblyInfoInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.AssemblyInfo.cs
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.csproj.CoreCompileInputs.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\refint\Blog.Validation.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.genruntimeconfig.cache
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\ref\Blog.Validation.dll
