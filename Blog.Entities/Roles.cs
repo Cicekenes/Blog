@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blog.UnitOfWork
+namespace Blog.Entities
 {
-    public interface IUnitOfWork
+    public enum Roles
     {
-        //Repos
+        Admin=0,
+        Moderator=1,
+        User=2,
+        Constraint=3
     }
 }

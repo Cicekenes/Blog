@@ -16,16 +16,8 @@ namespace Blog.Entities
         public DateTime UpdatedDate { get; set; }
         public int WhoUpdated { get; set; }
         public bool IsDeleted { get; set; }
-        public Base()
-        {
-            CreatedDate = DateTime.Now;
-            IsDeleted = false;
-            if (WhoCreated == null || WhoUpdated == null)
-            {
-                WhoCreated = 99999;
-                WhoUpdated = 99999;
-            }
-
-        }
+        public bool IsActive { get; set; }
+        public DateTime BannedTime { get; set; }
+        public int Role { get; set; }
     }
 }

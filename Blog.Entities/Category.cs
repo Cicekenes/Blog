@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blog.UnitOfWork
+namespace Blog.Entities
 {
-    public interface IUnitOfWork
+    public class Category : Base
     {
-        //Repos
+        public string CategoryName { get; set; }
+
     }
 }
