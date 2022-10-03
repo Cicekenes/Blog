@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NDJze0RLFLIWoRWWGO6htquj4GXjicd5IOmtM/e36FcS/RLBF5WTkMKILcOKx+8vBG1VkHIemY2cc2xXfno2aQ==",
+  "dgSpecHash": "gEURCfpseeA7NpTkOA4PBCxYHmluTca+6ZKpWf2UmGpDijCDrGFPaQwatI60qZ/RsIpS4C+pIXyBy920MiWr/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.UnitOfWork\\Blog.UnitOfWork.csproj",
   "expectedPackageFiles": [
@@ -46,10 +46,7 @@
     "C:\\Users\\enes.cicek\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\enes.cicek\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\enes.cicek\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\enes.cicek\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\enes.cicek\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
-    "C:\\Users\\enes.cicek\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
-    "C:\\Users\\enes.cicek\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+    "C:\\Users\\enes.cicek\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
