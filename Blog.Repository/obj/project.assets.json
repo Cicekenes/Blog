@@ -782,6 +782,50 @@
             "rid": "win"
           }
         }
+      },
+      "Blog.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blog.Dal": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Core.dll": {}
+        }
+      },
+      "Blog.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Blog.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Dal.dll": {}
+        }
+      },
+      "Blog.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Entities.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2047,26 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Blog.Core/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Core/Blog.Core.csproj",
+      "msbuildProject": "../Blog.Core/Blog.Core.csproj"
+    },
+    "Blog.Dal/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Dal/Blog.Dal.csproj",
+      "msbuildProject": "../Blog.Dal/Blog.Dal.csproj"
+    },
+    "Blog.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Entities/Blog.Entities.csproj",
+      "msbuildProject": "../Blog.Entities/Blog.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blog.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9",
@@ -2045,7 +2105,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Core\\Blog.Core.csproj": {
+              "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Core\\Blog.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

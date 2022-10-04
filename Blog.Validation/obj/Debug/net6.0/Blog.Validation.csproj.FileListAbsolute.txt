@@ -12,3 +12,6 @@ C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\refint\Bl
 C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.pdb
 C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.genruntimeconfig.cache
 C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\ref\Blog.Validation.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\bin\Debug\net6.0\Blog.Entities.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\bin\Debug\net6.0\Blog.Entities.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Validation\obj\Debug\net6.0\Blog.Validation.csproj.CopyComplete
