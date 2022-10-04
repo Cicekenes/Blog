@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Entities
 {
-    public abstract class Base
+    public class Base
     {
         [Key]
         public int Id { get; set; }

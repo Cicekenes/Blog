@@ -12,3 +12,8 @@ C:\Users\enes.cicek\source\repos\Blog\Blog.Core\obj\Debug\net6.0\refint\Blog.Cor
 C:\Users\enes.cicek\source\repos\Blog\Blog.Core\obj\Debug\net6.0\Blog.Core.pdb
 C:\Users\enes.cicek\source\repos\Blog\Blog.Core\obj\Debug\net6.0\Blog.Core.genruntimeconfig.cache
 C:\Users\enes.cicek\source\repos\Blog\Blog.Core\obj\Debug\net6.0\ref\Blog.Core.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Core\bin\Debug\net6.0\Blog.Dal.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Core\bin\Debug\net6.0\Blog.Entities.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Core\bin\Debug\net6.0\Blog.Dal.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Core\bin\Debug\net6.0\Blog.Entities.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.Core\obj\Debug\net6.0\Blog.Core.csproj.CopyComplete

@@ -15,7 +15,7 @@ namespace Blog.Entities
         public string? Surname { get; set; }
         [Required,DataType(DataType.DateTime)]
         public DateTime Birthday { get; set; }
-        [Required, EmailAddress,StringLength(100,MinimumLength =2)]
+        [Required, EmailAddress,StringLength(100,MinimumLength =11)]
         public string? Email { get; set; }
         [Required,StringLength(30,MinimumLength =5)]
         public string? Username { get; set; }
