@@ -1,4 +1,5 @@
 using Blog.Dal.Concrete;
+using Blog.UnitOfWork;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,6 +16,7 @@ builder.Services.AddControllers().AddFluentValidation(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BlogContext>(x=>x.UseSqlServer(builder.Configuration.GetConnectionString("Connect")));
+builder.Services.AddIoC();
 
 var app = builder.Build();
 
