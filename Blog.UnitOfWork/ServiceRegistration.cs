@@ -18,6 +18,7 @@ namespace Blog.UnitOfWork
             service.AddScoped<ICommentRepository, CommentRepository>();
             service.AddScoped<IPostRepository,PostRepository>();
             service.AddScoped<IUserRepository,UserRepository>();
+            service.AddScoped<IUnitOfWork,UnitOfWork>();
         }
     }
 }

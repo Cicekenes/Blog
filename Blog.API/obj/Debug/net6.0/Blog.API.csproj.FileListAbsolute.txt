@@ -71,3 +71,11 @@ C:\Users\enes.cicek\source\repos\Blog\Blog.API\obj\Debug\net6.0\ref\Blog.API.dll
 C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.Core.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.Dtos.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.Repository.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.UnitOfWork.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.Dtos.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.UnitOfWork.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.Core.pdb
+C:\Users\enes.cicek\source\repos\Blog\Blog.API\bin\Debug\net6.0\Blog.Repository.pdb

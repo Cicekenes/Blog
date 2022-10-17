@@ -1027,6 +1027,20 @@
           "bin/placeholder/Blog.Dal.dll": {}
         }
       },
+      "Blog.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Dtos.dll": {}
+        }
+      },
       "Blog.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2764,6 +2778,11 @@
       "path": "../Blog.Dal/Blog.Dal.csproj",
       "msbuildProject": "../Blog.Dal/Blog.Dal.csproj"
     },
+    "Blog.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Dtos/Blog.Dtos.csproj",
+      "msbuildProject": "../Blog.Dtos/Blog.Dtos.csproj"
+    },
     "Blog.Entities/1.0.0": {
       "type": "project",
       "path": "../Blog.Entities/Blog.Entities.csproj",
@@ -2783,6 +2802,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Blog.Dal >= 1.0.0",
+      "Blog.Dtos >= 1.0.0",
       "Blog.UnitOfWork >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.2.2",
       "Microsoft.EntityFrameworkCore >= 6.0.9",
@@ -2827,6 +2847,9 @@
           "projectReferences": {
             "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Dal\\Blog.Dal.csproj": {
               "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Dal\\Blog.Dal.csproj"
+            },
+            "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Dtos\\Blog.Dtos.csproj": {
+              "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Dtos\\Blog.Dtos.csproj"
             },
             "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.UnitOfWork\\Blog.UnitOfWork.csproj": {
               "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.UnitOfWork\\Blog.UnitOfWork.csproj"
@@ -2892,7 +2915,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.1.22431.12\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100-rc.2.22477.23\\RuntimeIdentifierGraph.json"
       }
     }
   }
