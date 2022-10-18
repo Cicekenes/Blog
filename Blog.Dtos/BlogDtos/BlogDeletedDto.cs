@@ -9,7 +9,6 @@ namespace Blog.Dtos.BlogDtos
 {
 	public class BlogDeletedDto
 	{
-        public int BlogId { get; set; }
-        public string BlogName { get; set; }
+        public Guid BlogId { get; set; }
     }
 }

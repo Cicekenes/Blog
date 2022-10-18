@@ -26,5 +26,8 @@ namespace Blog.Entities
         public DateTime VerifiedAt { get; set; }
         public string? PasswordResetToken { get; set; }
         public DateTime ResetTokenExpires { get; set; }
-    }
+        public int Role { get; set; } = (int)Roles.User;
+		public DateTime BannedTime { get; set; }
+
+	}
 }

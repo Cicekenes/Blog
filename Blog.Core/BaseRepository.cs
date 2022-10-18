@@ -39,11 +39,18 @@ namespace Blog.Core
             return query;
         }
 
-        public async Task<T> GetByIdAsync(string id, bool tracking = true)
+		public T GetById(Guid id, bool tracking = true)
+		{
+			var query = Set().AsQueryable();
+			if (!tracking) query = query.AsNoTracking();
+			return query.FirstOrDefault(x => x.Id == id);
+		}
+
+		public async Task<T> GetByIdAsync(Guid id, bool tracking = true)
         {
            var query = Set().AsQueryable();
             if(!tracking) query = query.AsNoTracking();
-            return await query.FirstOrDefaultAsync(x => x.Id == int.Parse(id));
+            return await query.FirstOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<T> GetSingleAsync(Expression<Func<T, bool>> method, bool tracking = true)
@@ -67,9 +74,9 @@ namespace Blog.Core
             return entityEntry.State == EntityState.Deleted;
         }
 
-        public async Task<bool> RemoveAsync(string id)
+        public async Task<bool> RemoveAsync(Guid id)
         {
-            T model = await Set().FindAsync(int.Parse(id));
+            T model = await Set().FindAsync(id);
             return Remove(model);
         }
 

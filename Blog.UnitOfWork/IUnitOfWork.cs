@@ -15,6 +15,7 @@ namespace Blog.UnitOfWork
         ICommentRepository _commentRepository { get; }
         IPostRepository _postRepository { get; }
         IUserRepository _userRepository { get; }
-        Task Save();
+        Task SaveAsync();
+        void Save();
     }
 }

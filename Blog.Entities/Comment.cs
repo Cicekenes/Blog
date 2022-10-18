@@ -21,11 +21,11 @@ namespace Blog.Entities
         public string ContactMessage { get; set; }
         //Bir kullanıcı birden fazla yorum yapabilir.
         [ForeignKey("Users")]
-        public int UserId { get; set; }
+        public Guid UserId { get; set; }
         public User Users { get; set; }
         //Bir postta birden fazla yorum olabilir
         [ForeignKey("Posts")]
-        public int PostId { get; set; }
+        public Guid PostId { get; set; }
         public Post Posts { get; set; }
 
     }

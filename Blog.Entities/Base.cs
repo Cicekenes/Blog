@@ -17,7 +17,11 @@ namespace Blog.Entities
         public int WhoUpdated { get; set; }
         public bool IsDeleted { get; set; }
         public bool IsActive { get; set; }
-        public DateTime BannedTime { get; set; }
-        public int Role { get; set; }
+
+
+        public Base()
+        {
+            Id = Guid.NewGuid();
+        }
     }
 }

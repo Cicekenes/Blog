@@ -8,6 +8,7 @@ namespace Blog.Dtos.BlogDtos
 {
 	public class BlogListDto
 	{
-		public string BlogName { get; set; }
+        public Guid BlogId { get; set; }
+        public string BlogName { get; set; }
 	}
 }

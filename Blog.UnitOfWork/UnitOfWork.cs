@@ -32,7 +32,12 @@ namespace Blog.UnitOfWork
 
         public IUserRepository _userRepository { get; private set; }
 
-        public async Task Save()
+		public void Save()
+		{
+            _context.SaveChanges();
+		}
+
+		public async Task SaveAsync()
         {
            await _context.SaveChangesAsync();
         }

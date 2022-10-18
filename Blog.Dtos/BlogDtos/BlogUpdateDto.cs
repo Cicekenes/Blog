@@ -9,7 +9,8 @@ namespace Blog.Dtos.BlogDtos
 {
 	public class BlogUpdateDto
 	{
-		[StringLength(50)]
+        public Guid BlogId { get; set; }
+        [StringLength(50)]
 		public string BlogName { get; set; }
 	}
 }

@@ -10,6 +10,6 @@ namespace Blog.Dtos.BlogDtos
     public class BlogCreateDto
     {
         [StringLength(50)]
-        public string BlogName { get; set; }
+        public string? BlogName { get; set; }
     }
 }

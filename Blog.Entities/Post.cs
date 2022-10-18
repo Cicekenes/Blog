@@ -21,7 +21,7 @@ namespace Blog.Entities
         public string PostText { get; set; }
         [ForeignKey("Categories")]
         //Her post bir kategoriye bağlıdır
-        public int CategoryId { get; set; }
+        public Guid CategoryId { get; set; }
         public Category Categories { get; set; }
         //Bir postta birden fazla yorum olabilir
         public ICollection<Comment> Comments { get; set; }

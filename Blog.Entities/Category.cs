@@ -20,7 +20,7 @@ namespace Blog.Entities
         public ICollection<Post> Posts { get; set; }
         //Her kategori bir blog'a bağlı olmak zorunda
         [ForeignKey("Blogs")]
-        public int BlogId { get; set; }
+        public Guid BlogId { get; set; }
         public Blogg Blogs { get; set; }
 
     }
