@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Blog.Dal.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20221018111057_mig1")]
+    [Migration("20221101081538_mig1")]
     partial class mig1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -234,14 +234,16 @@ namespace Blog.Dal.Migrations
                         .HasMaxLength(25)
                         .HasColumnType("nvarchar(25)");
 
-                    b.Property<byte>("PasswordHash")
-                        .HasColumnType("tinyint");
+                    b.Property<byte[]>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<string>("PasswordResetToken")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<byte>("PasswordSalt")
-                        .HasColumnType("tinyint");
+                    b.Property<byte[]>("PasswordSalt")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
 
                     b.Property<DateTime>("ResetTokenExpires")
                         .HasColumnType("datetime2");

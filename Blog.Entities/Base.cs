@@ -18,10 +18,11 @@ namespace Blog.Entities
         public bool IsDeleted { get; set; }
         public bool IsActive { get; set; }
 
-
         public Base()
         {
             Id = Guid.NewGuid();
+            IsActive= true;
+            IsDeleted= false;
         }
     }
 }

@@ -19,3 +19,5 @@ C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Core
 C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Dal.pdb
 C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Entities.pdb
 C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\obj\Debug\net6.0\Blog.Repository.csproj.CopyComplete
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Dtos.dll
+C:\Users\enes.cicek\source\repos\Blog\Blog.Repository\bin\Debug\net6.0\Blog.Dtos.pdb

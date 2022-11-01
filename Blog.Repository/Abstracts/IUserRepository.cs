@@ -10,5 +10,6 @@ namespace Blog.Repository.Abstracts
 {
     public interface IUserRepository:IBaseRepository<User>
     {
+      
     }
 }

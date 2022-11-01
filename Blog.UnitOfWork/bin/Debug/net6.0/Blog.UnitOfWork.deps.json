@@ -562,6 +562,15 @@
           "Blog.Dal.dll": {}
         }
       },
+      "Blog.Dtos/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
+        },
+        "runtime": {
+          "Blog.Dtos.dll": {}
+        }
+      },
       "Blog.Entities/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.9",
@@ -574,6 +583,7 @@
       "Blog.Repository/1.0.0": {
         "dependencies": {
           "Blog.Core": "1.0.0",
+          "Blog.Dtos": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9"
         },
@@ -924,6 +934,11 @@
       "sha512": ""
     },
     "Blog.Dal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Blog.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -21,7 +21,7 @@ namespace Blog.API.Controllers
 		[ProducesResponseType(typeof(BlogListDto), 200)]
 		public IActionResult GetAll(bool tracking = true)
 		{
-			IEnumerable<BlogListDto> blog = _uow._blogRepository.GetAll(tracking).Select(x => new BlogListDto
+			IEnumerable<BlogListDto> blog = _uow._blogRepository.GetAll(tracking).Where(x=>x.IsActive==true && x.IsDeleted==false).Select(x => new BlogListDto
 			{
 				BlogId = x.Id,
 				BlogName = x.BlogName
@@ -35,18 +35,18 @@ namespace Blog.API.Controllers
 		{
 			//(_uow._blogRepository.GetAll().ToList().Any(x => x.BlogName.ToLower() != model.BlogName.ToLower()))
 
-			if (model != null)
+			if (model != null && !(_uow._blogRepository.GetAll().Any(x=>x.BlogName==model.BlogName)))
 			{
 				var blog = await _uow._blogRepository.AddAsync(new Blogg
 				{
-					BlogName = model.BlogName
+					BlogName = model.BlogName.Trim()
 				});
 				await _uow.SaveAsync();
-				return Ok(model.BlogName);
+				return Ok($"{model.BlogName} adlı kayıt başarılı olarak eklenmiştir!");
 			}
 			else
 			{
-				return BadRequest();
+				return BadRequest($"{model.BlogName} adına sahip başka bir blog var yada değeriniz boş!");
 			}
 		}
 
@@ -55,9 +55,16 @@ namespace Blog.API.Controllers
 		public IActionResult Remove(BlogDeletedDto model)
 		{
 			var deletedBlog = _uow._blogRepository.GetById(model.BlogId);
-			_uow._blogRepository.Remove(deletedBlog);
-			_uow.Save();
-			return Ok(deletedBlog);
+			if (deletedBlog!=null && _uow._blogRepository.GetAll().Any(x=>x.Id==model.BlogId))
+			{
+				_uow._blogRepository.Remove(deletedBlog);
+				_uow.Save();
+				return Ok($"{deletedBlog.BlogName} adlı blog silinmiştir!");
+			} else
+			{
+				return BadRequest($"{deletedBlog.BlogName} Blog Silinemedi veya silinemez");
+			}
+			
 		}
 		[HttpPut("UpdateBlog/{id:Guid}")]
 		[ProducesResponseType(typeof(BlogUpdateDto), 200)]
@@ -65,9 +72,16 @@ namespace Blog.API.Controllers
 		{
 			var updatedBlog = await _uow._blogRepository.GetByIdAsync(model.BlogId);
 			updatedBlog.BlogName = model.BlogName;
-			_uow._blogRepository.Update(updatedBlog);
-			await _uow.SaveAsync();
-			return Ok(updatedBlog);
+			if (updatedBlog!=null && !(_uow._blogRepository.GetAll().Any(x => x.BlogName == model.BlogName)))
+			{
+				_uow._blogRepository.Update(updatedBlog);
+				await _uow.SaveAsync();
+				return Ok($"{updatedBlog.BlogName} Başarılı bir şekilde güncellenmiştir!");
+			} else
+			{
+				return BadRequest($"{model.BlogName} adına sahip bir blog var yada böyle bir blog yok");
+			}
+			
 		}
 	}
 }

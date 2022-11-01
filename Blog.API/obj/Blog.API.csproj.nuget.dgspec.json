@@ -478,6 +478,9 @@
             "projectReferences": {
               "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Core\\Blog.Core.csproj": {
                 "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Core\\Blog.Core.csproj"
+              },
+              "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Dtos\\Blog.Dtos.csproj": {
+                "projectPath": "C:\\Users\\enes.cicek\\source\\repos\\Blog\\Blog.Dtos\\Blog.Dtos.csproj"
               }
             }
           }

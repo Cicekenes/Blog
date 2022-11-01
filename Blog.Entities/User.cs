@@ -19,10 +19,10 @@ namespace Blog.Entities
         public string? Email { get; set; }
         [Required,StringLength(30,MinimumLength =5)]
         public string? Username { get; set; }
-        public byte PasswordHash { get; set; }
+        public byte[] PasswordHash { get; set; } = new byte[32];
         //Password Salt= PasswordHash+Salting
-        public byte PasswordSalt { get; set; }
-        public string? VerificationToken { get; set; }
+        public byte[] PasswordSalt { get; set; } = new byte[32];
+		public string? VerificationToken { get; set; }
         public DateTime VerifiedAt { get; set; }
         public string? PasswordResetToken { get; set; }
         public DateTime ResetTokenExpires { get; set; }
